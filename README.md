@@ -11,11 +11,11 @@
 
 Antes de iniciar o sistema, execute as seguintes procedures na ordem correta:
 
-1. **PROC\_INICIALIZAR\_BANCO** – Cria e popula tabelas essenciais.
-2. **PROC\_CONFIGURAR\_PARAMETROS** – Define configurações iniciais do sistema.
-3. **PROC\_OBTER\_CIDADES\_MAIS\_DISTANTES** – Procedure responsável por calcular as cidades mais distantes entre si.
+1. **1-ESTRUTURA_TABELA_CIDADE.sql**                – Cria e popula tabelas essenciais.
+2. **2-PROC_OBTER_ESTADO_MAIOR_MENOR_CIDADES.sql**  – Cria procedure.
+3. **3-PROC_OBTER_CIDADES_MAIS_DISTANTES.sql**      – cria procedure.
+4. **4-EXECUTAR_APOS_BASE_POPULADA.sql**            – cria indices e atualiza tabela cidade para uso do SDO_GEOMETRY.
 
-Execute cada procedure no banco Oracle utilizando um cliente SQL ou via script automatizado.
 
 ## Como Rodar o Projeto
 
