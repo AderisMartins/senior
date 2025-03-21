@@ -8,8 +8,8 @@ spring:
     username: hr
     password: hr
     driver-class-name: oracle.jdbc.OracleDriver
-    hikari:
-      transaction-isolation: TRANSACTION_READ_COMMITTED
+#    hikari:
+#      transaction-isolation: TRANSACTION_READ_COMMITTED //Spring Batch remover
   jpa:
     show-sql: true
     database-platform: org.hibernate.dialect.OracleDialect
