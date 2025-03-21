@@ -1,0 +1,12 @@
+{
+  "ibgeId": 9007199254740991,
+  "uf": "RS",
+  "name": "Uruguaiana",
+  "capital": "",
+  "lon": "100",
+  "lat": "2000",
+  "noAccents": "Porto Alegre",
+  "alternativeNames": "Uruguaiana",
+  "microregion": "Sul",
+  "mesoregion": "Fronteira"
+}
